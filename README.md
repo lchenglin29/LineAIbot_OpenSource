@@ -43,7 +43,7 @@ gemini_api_key = os.environ['api_key']
 往下滑就會看到`Channel secret了`  
 至於`Channel access token`要到Basic Settings隔壁的`Messaging API頁面`取得
 ### 五、替換變數
-仿照`api_token`的模式，將`Channel secret`與`Channel access token`在程式裡的變數替換掉即可（如果你會的話亦可使用環境變數）
+仿照`gemini_api_key`的模式，將`Channel secret`與`Channel access token`在程式裡的變數替換掉即可（如果你會的話亦可使用環境變數）
 ## 第三步：Line官方帳號調整
 首先前往[Line官方帳號管理頁面](https://tw.linebiz.com/login/) -> `登入管理頁面`
 登入後選擇你剛建立的帳號，接著把自動回應模式關閉就完成了  
