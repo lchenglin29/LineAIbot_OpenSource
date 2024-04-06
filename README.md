@@ -23,4 +23,13 @@ gemini_api_key = os.environ['api_key']
 ```
 你可以將`os.environ['api_key']`替換為你剛才取得的token，或者如果你會設置環境變數也行
 
-## 第二步：Line官方帳號
+## 第二步：Line官方帳號之創建與取得Token
+> 我僅簡單介紹，詳細可參考[此文](https://steam.oxxostudio.tw/category/python/example/line-developer.html)，原作者寫得很清楚
+
+### 一、進入Line Developer
+網址在這 -> [連結](https://developers.line.biz/zh-hant/)
+### 二、建立一個Provider
+在左側選單中點選`provider`接著Create一個Provider
+> 如果你寫過Discord bot的話Provider應該就類似一個**Application**
+
+Create一個Channel，記得選擇`Messaging API`
