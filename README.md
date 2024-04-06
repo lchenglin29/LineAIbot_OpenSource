@@ -32,4 +32,12 @@ gemini_api_key = os.environ['api_key']
 在左側選單中點選`provider`接著Create一個Provider
 > 如果你寫過Discord bot的話Provider應該就類似一個**Application**
 
-Create一個Channel，記得選擇`Messaging API`
+### 三、建立一個Channel 
+在剛剛的Provider中Create一個Channel，記得選擇`Messaging API`
+![Messaging API](https://scontent.frmq2-2.fna.fbcdn.net/v/t1.15752-9/433994174_1817362718729995_6580314643434535918_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=7-ipoQoiP0kAb5H8cpX&_nc_ht=scontent.frmq2-2.fna&oh=03_AdV420sI2E3sfRHaeb4ryS09ZkZ9BGvrlej1OqEdu7BJYw&oe=6638402D)
+接著填好必要的資訊，就建立完成了！
+### 四、Channel secret與Channel access token
+建立好Channel之後你會進到他的Bassic Settings
+![Basic settings](https://scontent-tpe1-1.xx.fbcdn.net/v/t1.15752-9/421071721_1171088150541307_8879639398150892167_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=_e7g2rFHPzgAb4xg4GJ&_nc_ht=scontent-tpe1-1.xx&oh=03_AdUcFHYSFTNR0zSyfU126cWodzIc7fsJ2rfVcunJavynTA&oe=663821ED)
+往下滑就會看到`Channel secret了`
+至於`Channel access token`要到隔壁的`Messaging API`取得
