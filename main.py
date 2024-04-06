@@ -8,7 +8,7 @@ import json
 import requests
 import base64
 
-
+# 以下請自行替換為自己的token
 gemini_api_key = os.environ['api_key']
 channel_access_token = os.environ['channel_access_token']
 channel_secret = os.environ['channel_secret']
@@ -54,7 +54,6 @@ help_list = """❗指令列表❗
 幫助：取得指令列表
 直接說話即可使用AI"""
 
-# 請自行替換Channel Access Token和Channel Secret
 line_bot_api = LineBotApi(channel_access_token)
 handler = WebhookHandler(channel_secret)
 
