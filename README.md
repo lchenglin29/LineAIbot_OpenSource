@@ -42,12 +42,14 @@ gemini_api_key = os.environ['api_key']
 你可以在裡面取得Line ID，並用這個Line ID加入**官方帳號的好友**  
 往下滑就會看到`Channel secret了`  
 至於`Channel access token`要到Basic Settings隔壁的`Messaging API頁面`取得
+### 五、替換變數
+仿照`api_token`的模式，將`Channel secret`與`Channel access token`在程式裡的變數替換掉即可（如果你會的話亦可使用環境變數）
 ## 第三步：Line官方帳號調整
 首先前往[Line官方帳號管理頁面](https://tw.linebiz.com/login/) -> `登入管理頁面`
 登入後選擇你剛建立的帳號，接著把自動回應模式關閉就完成了  
 這樣可以避免每次傳訊息時都會跳出Line的自動回應  
 ## 第四步：Webhook
-> 我自己是把這個程式部署到Vercel，所以如果你要在本機端測試，建議參考[這篇](https://steam.oxxostudio.tw/category/python/example/line-webhook.html)我只教如何將連結綁進Line的官方帳號
+> 我自己是把這個程式部署到Vercel，所以如果你要在本機端測試，建議參考[這篇](https://steam.oxxostudio.tw/category/python/example/line-webhook.html)。我只教如何將連結綁進Line的官方帳號
 
 總之回到剛剛的Channel頁面，選Basic Settings旁邊的Messaging API頁面，找到`Webhook Settings`然後貼上你的Flask伺服器網址，然後按`update`就可以儲存了
 最後記得按一下`Verify`確認你的伺服器有無回應。
