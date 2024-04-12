@@ -24,7 +24,7 @@ gemini_api_key = os.environ['api_key']
 你可以將`os.environ['api_key']`替換為你剛才取得的token，或者如果你會設置環境變數也行
 
 ## 第二步：Line官方帳號之創建與取得Token
-> 我僅簡單介紹，詳細可參考[此文](https://steam.oxxostudio.tw/category/python/example/line-developer.html)，原作者寫得很清楚（該文章不包含取得token的方式，原作者有寫，在[這篇](https://steam.oxxostudio.tw/category/python/example/line-webhook.html)）
+> 我僅簡單介紹，詳細可參考[此文](https://steam.oxxostudio.tw/category/python/example/line-developer.html)，原作者寫得很清楚（不過那篇文章不包含取得token的方式。原作者其實有寫，在[這篇](https://steam.oxxostudio.tw/category/python/example/line-webhook.html)）
 
 ### 一、進入Line Developer
 網址在這 -> [連結](https://developers.line.biz/zh-hant/)
