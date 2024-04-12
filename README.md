@@ -12,7 +12,7 @@
 
 以下將簡單介紹取得程式中引用之token的方法
 ## 第一步：Google AI Studio
-> ⚠️本文撰寫時(2024/4/6)Gemini的API還是免費的，因為我沒有填任何付款資訊。未來若有變動應參考Google官方之說明！
+> ⚠️本文撰寫時(2024/4/6)Gemini的API還是免費的，因此我沒有填任何付款資訊。未來若有變動應參考Google官方之說明！
 
 前往[Google AI Studio](https://aistudio.google.com/)  
 在左側的選單中，點選第一個選項`get API key`  
